@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bgp2"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My Music"
+            android:gravity="center"
+            android:textSize="45dp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:padding="10dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/ban"
+        android:scaleType="centerCrop"/>
+
+    <!--After Banner Layout Banner-->
+
+    <!--Album Song 1 Start -->
+
+    <LinearLayout
+        android:id="@+id/laySong1"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:background="#590F34ED"
+        >
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/james"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Shironamhin - Abar Hashimukh"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:layout_margin="5dp"
+                android:maxLines="2"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The official music video of 'Abar Hashimukh' by Shironamhin. It was a song from their self-titled album 'Shironamhin'. This song is the sequel to their previous song ‘Hashimukh’."
+                android:textColor="#fff"
+                android:textSize="14sp"
+                android:maxLines="3"
+                android:layout_margin="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_margin="5dp"
+                android:text="Duration:5:55"
+                android:textColor="#fff"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <!--Album Song 1 End -->
+
+
+    <!--Album Song 2 Start -->
+
+    <LinearLayout
+        android:id="@+id/laySong2"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:background="#590F34ED"
+
+        >
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/james2"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Shironamhin-Tor Premete Ondho"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:layout_margin="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The official music video of 'Abar Hashimukh' by Shironamhin. It was a song from their self-titled album 'Shironamhin'. This song is the sequel to their previous song ‘Hashimukh’."
+                android:textColor="#fff"
+                android:textSize="14sp"
+                android:maxLines="3"
+                android:layout_margin="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Duration:5:05"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:layout_margin="5dp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <!--Album Song 2 End -->
+
+
+    <!--Album Song 3 Start -->
+
+    <LinearLayout
+        android:id="@+id/laySong3"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:background="#590F34ED"
+        >
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/james3"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kabita By James"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:layout_margin="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The official music video of 'Abar Hashimukh' by Shironamhin. It was a song from their self-titled album 'Shironamhin'. This song is the sequel to their previous song ‘Hashimukh’."
+                android:textColor="#fff"
+                android:textSize="14sp"
+                android:maxLines="3"
+                android:layout_margin="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Duration:6:24"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:layout_margin="5dp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+        <!--Album Song 3 End -->
+
+
+        <!--- Album Song 4 Start -->
+
+    <LinearLayout
+        android:id="@+id/laySong4"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:background="#590F34ED"
+        >
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/james4"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Maa By James"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:layout_margin="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The official music video of 'Abar Hashimukh' by Shironamhin. It was a song from their self-titled album 'Shironamhin'. This song is the sequel to their previous song ‘Hashimukh’."
+                android:textColor="#fff"
+                android:textSize="14sp"
+                android:maxLines="3"
+                android:layout_margin="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Duration:6:04"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:layout_margin="5dp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+        <!--Album Song 4 End -->
+
+
+        <!--Album Song 5 Start -->
+
+    <LinearLayout
+        android:id="@+id/laySong5"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:background="#590F34ED"
+        >
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/james5"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Amar Sonar Bangla"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:layout_margin="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The official music video of 'Abar Hashimukh' by Shironamhin. It was a song from their self-titled album 'Shironamhin'. This song is the sequel to their previous song ‘Hashimukh’."
+                android:textColor="#fff"
+                android:layout_margin="5dp"
+                android:textSize="14sp"
+                android:maxLines="3"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Duration:5:55"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:layout_margin="5dp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Develop by Asad"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:gravity="right"
+            android:layout_margin="10dp"/>
+    <!--Album Song 5 End -->
+    </LinearLayout>
+</ScrollView>
